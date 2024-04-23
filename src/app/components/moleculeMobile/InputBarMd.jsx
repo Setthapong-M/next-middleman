@@ -1,7 +1,7 @@
 import React from 'react'
 
-
 function InputBarMd(props) {
+
   return (
     <div className='relative'>
         <label htmlFor='title' className='absolute top-0 left-6 text-black'>{props.title}</label>

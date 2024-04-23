@@ -13,9 +13,7 @@ function ProductReviewInfo() {
     const descr = "Lorem ipsum dolor sit amet consectetur. Arcu est urna lobortis sagittis tincidunt. Aliquam odio eget risus aliquet ac nunc eget ullamcorper. Etiam blandit faucibus nibh faucibus etiam. Tincidunt cras urna magna aliquam fringilla facilisis."
 
     return (
-        <div className='max-w-80'>
-            <Link href="
-            ../" className='w-full h-16 bg-grey400 flex justify-center items-center text-white rounded-full'>Go Back</Link>
+        <div className=''>
             
             {/* Seller info */}
             <div>

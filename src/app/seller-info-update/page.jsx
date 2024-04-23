@@ -10,18 +10,16 @@ function sellerInfoUpdate() {
   return (
     <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
         <Status tag = {tag}/>
-        <div className='max-w-4xl mt-12 flex flex-col gap-12'>
-            <div className='flex items-center justify-between'>
+        <div className='max-w-4xl mt-12 flex flex-col gap-6 md:gap-12'>
+            <div className='flex flex-col md:flex-row md:items-center justify-between gap-4'>
                 <h3 className='text-2xl font-bold'>Seller info</h3>
                 <SellerInfo />
-                
             </div>
-            <div className='flex items-center justify-between'>
+            <div className='flex flex-col md:flex-row md:items-center justify-between gap-4'>
                 <h3 className='text-2xl font-bold '>Buyer info</h3>
                 <BuyerInfo />
             </div>
-
-            <div className='flex items-center justify-between'>
+            <div className='flex flex-col md:flex-row md:items-center justify-between gap-4'>
                 <h3 className='text-2xl font-bold '>Product info</h3>
                 <ProductInfo />
             </div>

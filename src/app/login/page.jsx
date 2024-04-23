@@ -14,16 +14,18 @@ function Login() {
 
         <div className='md:max-w-80 flex flex-col gap-6'>
 
-            <div className='hidden md:block'>
-                <InputBar title = {title} ph = {ph}/>
-            </div>
             <div className='md:hidden'>
                 <InputBarMd title = {title}/>
             </div>
-
-            <p className='hidden md:block underline text-center'>Terms of service and privacy policy</p>
+            <div className='flex flex-col gap-3'>
+                <div className='hidden md:block'>
+                    <InputBar title = {title} ph = {ph}/>
+                </div>
+                <p className='hidden md:block underline text-center'>Terms of service and privacy policy</p>
+                
+                <Link href='/'><button className='w-full h-16 bg-green200 rounded-full text-xl font-bold md:text-xl border border-black uppercase'>continue</button></Link>
+            </div>
             
-            <Link href='/'><button className='w-full h-16 bg-green200 rounded-full text-xl font-bold md:text-xl border border-black uppercase'>continue</button></Link>
             
             {/* or */}
             <div className='flex items-center gap-2'>
