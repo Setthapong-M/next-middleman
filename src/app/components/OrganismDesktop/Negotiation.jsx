@@ -9,7 +9,7 @@ function Negotiation() {
                 <h1 className='text-5xl'>Negotiation</h1>
                 <p>Lorem ipsum dolor sit amet consectetur. Aliquam elit commodo egestas ornare. Scelerisque id aliquam faucibus urna velit. In semper fringilla mollis ornare leo. Blandit sit eget odio hendrerit.</p>
             </div>
-            <Link href="/"><button className='w-full md:w-96 h-14 md:h-20 rounded-full bg-white text-2xl font-bold'>NEGOTIATE</button></Link>
+            <Link href="/negotiation"><button className='w-full md:w-96 h-14 md:h-20 rounded-full bg-white text-2xl font-bold'>NEGOTIATE</button></Link>
         </div>
     </div>
     

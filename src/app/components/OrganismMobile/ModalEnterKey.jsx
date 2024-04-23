@@ -1,18 +1,18 @@
 
 import React from 'react'
-import InputBarMd from './InputBarMd'
+import InputBarMd from '../moleculeMobile/InputBarMd'
 import Link from 'next/link'
 
 
 
-const ModalCreateKey = ({isVisible, onClose}) => {
+const ModalEnterKey = ({isVisible, onClose}) => {
     if (!isVisible) return null;
 
     const handleClose = (e) => {
         if(e.target.id === "wrapper") onClose();
     }
     
-    const title = "Create your key";
+    const title = "key";
     const ph = "Enter your key";
 
   return (
@@ -20,7 +20,7 @@ const ModalCreateKey = ({isVisible, onClose}) => {
         <div className='w-full min-h-64 !mx-8 bg-white rounded-xl'>
             <div className='flex flex-col gap-6 px-8 mt-12'>
                 <InputBarMd title = {title} ph = {ph}/>
-                <Link href='/'>
+                <Link href='/position-side'>
                 <button className='w-full h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>  
                     Continue
                 </button>
@@ -31,7 +31,7 @@ const ModalCreateKey = ({isVisible, onClose}) => {
   )
 }
 
-export default ModalCreateKey
+export default ModalEnterKey
 
 
 

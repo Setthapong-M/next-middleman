@@ -2,14 +2,14 @@
 
 import React from 'react'
 import PicProduct from '../components/moleculeDesktop/PicProduct'
-import InputProduct from '../components/moleculeDesktop/InputProduct'
-import Link from 'next/link'
 import ProductReviewInfo from '../components/moleculeDesktop/ProductReviewInfo'
 import PicProductMd from '../components/moleculeMobile/PicProductMd'
 import SellerInfo from '../components/moleculeDesktop/SellerInfo'
 import ProductInfo from '../components/moleculeDesktop/ProductInfo'
+import { useRouter } from 'next/navigation'
 
 function productReview() {
+  const router = useRouter();
   return (
     <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
         <h1 className='hidden md:block text-5xl font-bold uppercase mb-12'>Product review</h1>
@@ -34,15 +34,13 @@ function productReview() {
                 <ProductInfo />
               </div>
 
-              <Link href=".." className='w-full h-16 bg-grey400 flex justify-center items-center text-white rounded-full'>
-                  Go Back
-              </Link>
+              <button type='button' onClick={router.back} className='w-full h-16 bg-grey400 flex justify-center items-center text-white rounded-full uppercase'>Go back</button>
+
             </div>
 
-            <div className='hidden md:block flex justify-center max-w-80'>
-                <Link href=".." className='w-full h-16 bg-grey400 flex justify-center items-center text-white rounded-full'>
-                  Go Back
-                </Link>
+            <div className='hidden md:block flex justify-center max-w-80 ml-12'>
+                <button type='button' onClick={router.back} className='w-full h-16 bg-grey400 flex justify-center items-center text-white rounded-full uppercase'>Go back</button>
+
 
                 <ProductReviewInfo />
             </div>

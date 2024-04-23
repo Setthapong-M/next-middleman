@@ -22,7 +22,7 @@ function sellerInfo() {
             </div>
 
         </div>
-        <Link href='/'>
+        <Link href='/product-review'>
             <button className='w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase mt-12'>
                 view product
             </button>

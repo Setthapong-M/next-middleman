@@ -3,7 +3,7 @@
 import React from 'react'
 import SearchXl from '../components/moleculeDesktop/SearchXl'
 import Link from 'next/link'
-import ModalCreateKey from '../components/moleculeMobile/ModalCreateKey'
+import ModalCreateKey from '../components/OrganismMobile/ModalCreateKey'
 import { useState } from 'react'
 import SearchMd from '../components/OrganismMobile/SearchMd'
 
@@ -35,7 +35,7 @@ function createRoom() {
             
             <div className='w-full mt-60 md:m-0'>
               <h1 className='md:hidden text-2xl font-bold mb-3 uppercase text-center'>Create your deal</h1>
-              <Link href='/'>
+              <Link href='/create-key'>
                 <button className='hidden md:block w-full h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>  
                   create room
                 </button>

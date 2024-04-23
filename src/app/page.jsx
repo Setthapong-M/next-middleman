@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import Navbar from "./components/OrganismDesktop/Navbar";
 import FooterMd from "./components/OrganismDesktop/FooterMd";
@@ -7,10 +9,12 @@ import Heading3 from "./components/OrganismDesktop/Heading3";
 import Heading4 from "./components/OrganismDesktop/Heading4";
 import Negotiation from "./components/OrganismDesktop/Negotiation";
 import Heading5 from "./components/OrganismDesktop/Heading5";
+import SearchMd from "./components/OrganismMobile/SearchMd";
 
 export default function Home() {
   return (
     <main>
+      <SearchMd />
       <Heading1 />
       <Negotiation />
       <Heading2 />

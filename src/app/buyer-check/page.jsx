@@ -21,12 +21,12 @@ function sellerInfo() {
             </div>
         </div>
         <div className='flex flex-col gap-6'>
-            <Link href='/'>
+            <Link href='/check-product'>
                 <button className='w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase mt-12'>
                     Check list
                 </button>
             </Link>
-            <Link href='/'>
+            <Link href='/product-review'>
                 <button className='w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
                     view product
                 </button>

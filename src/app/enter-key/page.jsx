@@ -10,7 +10,7 @@ function enterKey() {
         <h1 className='uppcase text-5xl font-bold mb-12'>Enter your key</h1>
         <div className='max-w-80 flex flex-col gap-12'>
             <InputBar title = {title} ph = {ph}/>
-            <Link href='/'><button className='w-full h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>Continue</button></Link>
+            <Link href='/position-side'><button className='w-full h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>Continue</button></Link>
         </div>
     </div>
     

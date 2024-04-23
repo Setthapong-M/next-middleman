@@ -33,7 +33,7 @@ function createProduct() {
                 <InputBarMd title = {titleD} ph = {phD}/>
               </div>
               
-              <Link href='/'>
+              <Link href='/seller-info'>
                 <button className='mt-3 md:mt-0 w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
                   Confirm
                 </button>

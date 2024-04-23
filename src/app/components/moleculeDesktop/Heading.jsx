@@ -11,7 +11,7 @@ function Heading(props) {
         </div>
         <p className=''>{props.content}</p>
         <div className='flex items-end gap-6'>
-          <Link href='/'><button className='min-w-40 w-full h-12 bg-green200 rounded-full text-xl font-bold'>MIDDLEMAN</button></Link>
+          <Link href='/create-room'><button className='min-w-40 w-full h-16 bg-green200 rounded-full text-xl font-bold'>MIDDLEMAN</button></Link>
           <Link href='/' className='hidden md:block underline text-center'>Not an account yet?</Link>
         </div>
     </div>

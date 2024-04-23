@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaExpand, FaGlobe } from "react-icons/fa6";
-import ModalEnterKey from '../moleculeMobile/ModalEnterKey';
+import ModalEnterKey from './ModalEnterKey';
 
 function SearchMd() {
 
@@ -11,7 +11,7 @@ function SearchMd() {
   }
 
   return (
-    <div className='max-w-screen-md flex gap-6'>
+    <div className='md:hidden max-w-screen-md flex gap-6 p-8'>
         <div onClick={toggle} className='bg-grey400 rounded-full min-w-16 min-h-16 flex items-center justify-center'>
             <FaExpand className='w-10 h-10 text-white'/>
         </div>

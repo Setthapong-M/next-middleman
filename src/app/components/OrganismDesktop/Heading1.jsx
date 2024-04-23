@@ -9,7 +9,7 @@ function Heading1() {
   const content = "Lorem ipsum dolor sit amet consectetur. Aliquam elit commodo egestas ornare. Scelerisque id aliquam faucibus urna velit. In semper fringilla mollis ornare leo. Blandit sit eget odio hendrerit."
 
   return (
-    <div className='max-w-screen-xl mx-auto py-20 px-8'>
+    <div className='max-w-screen-xl mx-auto pt-6 pb-20 md:py-20 px-8'>
       <div className='flex flex-col gap-12 md:gap-0 md:flex-row md:justify-evenly md:items-center'>
         <div className='md:max-w-md flex flex-col gap-12 justify-start'>
           <div className='text-5xl font-bold md:text-5xl'>
@@ -19,7 +19,7 @@ function Heading1() {
           </div>
           <p className=''>{content}</p>
           <div className='flex flex-col md:max-w-96 gap-3'>
-            <Link href='/'><button className='w-full  h-14 md:h-20 bg-green200 rounded-full text-xl font-bold md:text-2xl border border-black'>MIDDLEMAN</button></Link>
+            <Link href='/login'><button className='w-full  h-14 md:h-20 bg-green200 rounded-full text-xl font-bold md:text-2xl border border-black'>MIDDLEMAN</button></Link>
             <Link href='/' className='hidden md:block underline text-center'>Already have an account? Sign in</Link>
           </div>
         </div>

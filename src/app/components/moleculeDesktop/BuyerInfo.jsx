@@ -4,9 +4,9 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 
 function BuyerInfo() {
-    const name = ""
-    const phone = ""
-    const address = ""
+    const name = "Poly Mojo"
+    const phone = "0876543210"
+    const address = "250/444 Bangkok Thailand 10101"
 
     return (
         <div className='flex flex-col gap-y-2 max-w-screen-sm w-full drop-shadow-md border bg-white px-6 py-4 rounded-xl'>

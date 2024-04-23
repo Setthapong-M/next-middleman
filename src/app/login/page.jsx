@@ -21,9 +21,9 @@ function Login() {
                 <div className='hidden md:block'>
                     <InputBar title = {title} ph = {ph}/>
                 </div>
-                <p className='hidden md:block underline text-center'>Terms of service and privacy policy</p>
+                <button className='hidden md:block underline text-center'>Terms of service and privacy policy</button>
                 
-                <Link href='/'><button className='w-full h-16 bg-green200 rounded-full text-xl font-bold md:text-xl border border-black uppercase'>continue</button></Link>
+                <Link href='/create-room'><button className='w-full h-16 bg-green200 rounded-full text-xl font-bold md:text-xl border border-black uppercase'>continue</button></Link>
             </div>
             
             
@@ -60,7 +60,7 @@ function Login() {
                     </button>
                 </Link>
             </div>
-            <p className='md:hidden underline text-center'>Terms of service and privacy policy</p>
+            <button className='md:hidden underline text-center'>Terms of service and privacy policy</button>
             
         </div>
     </div>

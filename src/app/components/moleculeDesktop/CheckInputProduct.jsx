@@ -4,8 +4,10 @@ import { FaCircleCheck } from "react-icons/fa6";
 import { useState } from 'react';
 
 function CheckInputProduct() {
-    const title = "Price";
-    const ph = "Enter price";
+    const titleP = "Price";
+    const contentP = "Enter price";
+    const titleD = "Description";
+    const contentD = "Lorem ipsum dolor sit amet consectetur. Arcu est urna lobortis sagittis tincidunt. Aliquam odio eget risus aliquet ac nunc eget ullamcorper. Etiam blandit faucibus nibh faucibus etiam. Tincidunt cras urna magna aliquam fringilla facilisis.";
 
     const [toggle1 , setToggle1] = useState(false);
     const [toggle2 , setToggle2] = useState(false);
@@ -21,7 +23,10 @@ function CheckInputProduct() {
   return (
     <div>
       <div className='relative'>
-        <InputBar title = {title} ph = {ph}/>
+        <div className='max-w-80 w-full h-16 flex flex-col'>
+          <p>{titleP}</p>
+          <div className='pt-2 border-b border-black h-12'>{contentP}</div>
+        </div>
         <FaCircleCheck onClick={chosen1} className='absolute w-6 h-6 bottom-2 right-2 text-grey200'/>
         {toggle1 ? (
           <FaCircleCheck onClick={chosen1} className='absolute w-6 h-6 bottom-2 right-2 text-yellow100'/>
@@ -29,8 +34,8 @@ function CheckInputProduct() {
       </div>
       
       <div className='relative flex flex-col max-w-80 w-full mt-6'>
-          <label htmlFor='description'>Description</label>
-          <textarea rows="10" placeholder='Enter anything' className='border border-black rounded-xl p-2'></textarea>
+          <p>{titleD}</p>
+          <div className='h-80 border border-black rounded-xl p-2'>{contentD}</div>
           <FaCircleCheck onClick={chosen2} className='absolute w-6 h-6 bottom-2 right-2 text-grey200'/>
         {toggle2 ? (
           <FaCircleCheck onClick={chosen2} className='absolute w-6 h-6 bottom-2 right-2 text-yellow100'/>

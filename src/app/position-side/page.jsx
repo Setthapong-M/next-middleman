@@ -9,8 +9,8 @@ function positionSide() {
     
 
       <div className='flex flex-col md:flex-row gap-6 md:gap-12'>
-        <Link href='/' className=' '>
-          <button className='text-white text-3xl font-bold w-full rounded-full p-3 md:min-w-[512px] md:h-[512px] bg-grey400 md:rounded-xl'>
+        <Link href='/seller-create-product' className=' '>
+          <button className='text-white text-3xl md:font-bold w-full rounded-full p-3 md:min-w-[512px] md:h-[512px] bg-grey400 md:rounded-xl'>
             Seller
           </button>
         </Link>
@@ -21,8 +21,8 @@ function positionSide() {
             <div className='border-[0.5px] border-black grow h-[0.5px]'></div>
         </div>
 
-        <Link href='/' className=' '>
-          <button className='text-white text-3xl font-bold w-full rounded-full p-3 md:min-w-[512px] md:h-[512px] bg-grey400 md:rounded-xl'>
+        <Link href='/buyer-check' className=' '>
+          <button className='text-white text-3xl md:font-bold w-full rounded-full p-3 md:min-w-[512px] md:h-[512px] bg-grey400 md:rounded-xl'>
             Buyer
           </button>
         </Link>
