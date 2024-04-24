@@ -6,7 +6,7 @@ import SellerInfo from '../components/moleculeDesktop/SellerInfo'
 import BuyerInfo from '../components/moleculeDesktop/BuyerInfo'
 import Link from 'next/link'
 import ProductInfo from '../components/moleculeDesktop/ProductInfo'
-import ModalPaySuccess from '../components/OrganismMobile/ModalPaySuccess'
+import ModalPaySuccess from '../components/OrganismDesktop/ModalPaySuccess'
 import { useState } from 'react'
 
 function buyerInfo() {
@@ -38,16 +38,14 @@ function buyerInfo() {
             </div>
         </div>
         <div className='flex flex-col gap-6 mt-12'>
-
-                <button onClick={toggle}  className='w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+        
+                <button onClick={toggle}  className='w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
                     Pay now
                 </button>
 
-            <Link href='/product-review'>
-                <button className='w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
-                    view product
-                </button>
-            </Link>
+                <Link href='/product-review' className='flex items-center justify-center md:mt-0 w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+                    View product
+                </Link>
         </div>
         <ModalPaySuccess isVisible={showMadal} onClose={() => setShowModal(false)}/>
     </div>

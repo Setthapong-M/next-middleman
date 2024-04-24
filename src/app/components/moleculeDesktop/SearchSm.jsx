@@ -6,11 +6,11 @@ function SearchSm() {
   return (
     <div className='flex gap-x-3'>
       <div className='flex flex-col relative justify-center'>
-          <input type='text' placeholder='Search room' className='h-12 w-80 pl-6 rounded-full border border-black text-black'></input>
+          <input type='text' placeholder='Search room' className='h-10 w-80 pl-6 rounded-full border border-black text-black'></input>
       </div>
-      <button className='w-12 h-12 border border-black bg-white rounded-full'>
+      <button className='w-10 h-10 border border-black bg-white rounded-full'>
           <div className='flex justify-center'>
-              <FaSistrix className='w-6 h-6 text-black'/>
+              <FaSistrix className='w-5 h-5 text-black'/>
           </div>
       </button>
   </div>

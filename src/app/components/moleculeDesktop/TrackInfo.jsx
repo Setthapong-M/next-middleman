@@ -8,7 +8,7 @@ function TrackInfo() {
     const tracking = "TH114455661"
 
     return (
-        <div className='flex flex-col gap-y-2 max-w-screen-sm w-full drop-shadow-md border bg-white px-6 py-4 rounded-xl'>
+        <div className='-z-50 flex flex-col gap-y-2 max-w-screen-sm w-full drop-shadow-md border bg-white px-6 py-4 rounded-xl'>
             <div>
                 <p>Company shipping : {shipping}</p>
             </div>

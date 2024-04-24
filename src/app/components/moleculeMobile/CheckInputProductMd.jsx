@@ -27,9 +27,9 @@ function CheckInputProductMd() {
                 <p className='absolute top-0 left-3 text-black'>{titleP}</p>
                 <div className='flex pl-3 pt-6 h-16 w-full rounded-xl border border-black'>{contentP}</div>
             </div>
-            <FaCircleCheck onClick={chosen1} className='absolute w-6 h-6 top-2 right-2 text-grey200'/>
+            <FaCircleCheck onClick={chosen1} className='absolute w-6 h-6 top-2 right-2 text-grey200 cursor-pointer'/>
             {toggle1 ? (
-                <FaCircleCheck onClick={chosen1} className='absolute w-6 h-6 top-2 right-2 text-yellow100'/>
+                <FaCircleCheck onClick={chosen1} className='absolute w-6 h-6 top-2 right-2 text-yellow100 cursor-pointer'/>
             ) : null}
             
         </div>
@@ -39,9 +39,9 @@ function CheckInputProductMd() {
                 <p className='absolute top-0 left-3 text-black'>{titleD}</p>
                 <div className='flex pl-3 pt-6 min-h-16 w-full rounded-xl border border-black'>{contentD}</div>
             </div>
-            <FaCircleCheck onClick={chosen2} className='absolute w-6 h-6 top-2 right-2 text-grey200'/>
+            <FaCircleCheck onClick={chosen2} className='absolute w-6 h-6 top-2 right-2 text-grey200 cursor-pointer'/>
             {toggle2 ? (
-                <FaCircleCheck onClick={chosen2} className='absolute w-6 h-6 top-2 right-2 text-yellow100'/>
+                <FaCircleCheck onClick={chosen2} className='absolute w-6 h-6 top-2 right-2 text-yellow100 cursor-pointer'/>
             ) : null}
         </div>
     </div>

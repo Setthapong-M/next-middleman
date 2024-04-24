@@ -30,15 +30,13 @@ function checkProduct() {
                 </div>
                 
                 <div className='flex flex-col gap-6 mt-3'>
-                    <Link href='/buyer-info'>
-                        <button className='w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
-                            Confirm
-                        </button>
-                    </Link>
+                <Link href='/buyer-info' className='flex items-center justify-center mt-3 md:mt-0 w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+                    Confirm
+                </Link>
 
-                        <button onClick={router.back} className='w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
-                            Reject
-                        </button>
+                <button onClick={router.back} className='w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+                    Reject
+                </button>
 
                 </div>
             </div>

@@ -16,13 +16,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${sukhumvitText.variable} font-sans`}>
-        <div className="hidden md:block">
+        <div className="hidden md:block sticky top-0">
           <Navbar />
         </div>
         
         {children}
         <div className="md:hidden fixed bottom-0 inset-x-0">
-          <NavberMd />
+          {/* <NavberMd /> */}
         </div>
       </body>
     </html>

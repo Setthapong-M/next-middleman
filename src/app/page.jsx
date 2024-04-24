@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import Navbar from "./components/OrganismDesktop/Navbar";
 import FooterMd from "./components/OrganismDesktop/FooterMd";
 import Heading1 from "./components/OrganismDesktop/Heading1";
 import Heading2 from "./components/OrganismDesktop/Heading2";
@@ -22,7 +21,6 @@ export default function Home() {
       <Heading4 />
       <Heading5 />
       <FooterMd />
-
     </main>
   );
 }

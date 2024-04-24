@@ -17,7 +17,7 @@ function ProductReviewInfo() {
             
             {/* Seller info */}
             <div>
-                <div className='border-b border-black px-6 py-4'>
+                <div className='border-b border-black px-6 pt-4 pb-2'>
                     <h3>Seller info</h3>
                 </div>
                 <div className='flex flex-col gap-y-2 w-full border-b border-black px-6 py-4'>
@@ -35,7 +35,7 @@ function ProductReviewInfo() {
 
             {/* Product info */}
             <div>
-                <div className='border-b border-black px-6 py-4'>
+                <div className='border-b border-black px-6 pt-4 pb-2'>
                     <h3>Product info</h3>
                 </div>
                 <div className='flex flex-col gap-y-2 w-full border-b border-black px-6 py-4'>

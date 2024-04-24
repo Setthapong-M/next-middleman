@@ -9,8 +9,17 @@ import HeaderRoom from '../moleculeDesktop/HeaderRoom';
 import { useState } from 'react';
 import LogoEm from '../../../../public/logoEm.svg'
 import LogoText from '../../../../public/logoText.svg'
+import HambergerMenu from './HambergerMenu';
 
 function Navbar() {
+
+    const [showMenu, setShowMenu] = useState(false);
+    
+    const toggle = () => {
+        setShowMenu(!showMenu);
+    }
+
+
   return (
     <nav className='bg-black px-8'>
         <div className='flex max-w-screen-xl h-20 items-center mx-auto justify-between text-white'>
@@ -33,11 +42,13 @@ function Navbar() {
             <div className='hidden md:block'><SearchSm /></div>
             {/* <HeaderRoom /> */}
             <ul className='flex items-center gap-x-3'>
-                <Link href="/"><li><FaGlobe className='w-10 h-10'/></li></Link>
-                <Link href="/"><li><FaBars className='w-10 h-12'/></li></Link>
-                <Link href="/"><li><FaCircleUser className='w-10 h-10'/></li></Link>
+                <Link href="/"><li><FaGlobe className='w-6 h-6'/></li></Link>
+                <li><button onClick={toggle} className='flex items-center'><FaBars className='w-6 h-12'/></button></li>
+                <Link href="/"><li><FaCircleUser className='w-6 h-6'/></li></Link>
             </ul>
         </div>
+        
+        <HambergerMenu isVisible={showMenu} onClose={() => setShowMenu(false)}/>
     </nav>
   )
 }

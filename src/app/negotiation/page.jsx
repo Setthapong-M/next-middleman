@@ -5,6 +5,7 @@ import PositionNego from '../components/moleculeDesktop/PositionNego'
 import InputDetailNego from '../components/moleculeDesktop/InputDetailNego'
 import CheckContract from '../components/moleculeDesktop/CheckContract'
 import Link from 'next/link'
+import Dropdown from '../components/moleculeDesktop/Dropdown'
 
 function Negotiation() {
   return (
@@ -14,12 +15,12 @@ function Negotiation() {
         <PositionNego />
         <InputDetailNego />
         <CheckContract />
-        <Link href='/'>
-            <button className='mt-3 md:mt-0 w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
-                Confirm
-            </button>
+        <Link href='/' className='flex items-center justify-center mt-3 md:mt-0 w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+          Confirm
         </Link>
         </div>
+        <Dropdown title = {"Catagory"}/>
+
     </div>
     
   )

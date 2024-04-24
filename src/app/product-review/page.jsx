@@ -34,12 +34,12 @@ function productReview() {
                 <ProductInfo />
               </div>
 
-              <button type='button' onClick={router.back} className='w-full h-16 bg-grey400 flex justify-center items-center text-white rounded-full uppercase'>Go back</button>
+              <button type='button' onClick={router.back} className='w-full h-16 bg-grey400 flex justify-center items-center text-white text-xl rounded-full uppercase'>Go back</button>
 
             </div>
 
             <div className='hidden md:block flex justify-center max-w-80 ml-12'>
-                <button type='button' onClick={router.back} className='w-full h-16 bg-grey400 flex justify-center items-center text-white rounded-full uppercase'>Go back</button>
+                <button type='button' onClick={router.back} className='w-full h-16 bg-grey400 flex justify-center items-center text-white text-xl rounded-full uppercase'>Go back</button>
 
 
                 <ProductReviewInfo />

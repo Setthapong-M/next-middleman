@@ -15,13 +15,13 @@ function createRoom() {
   }
 
   return (
-    <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
+    <div className='max-w-screen-xl mx-auto md:p-20'>
         <h1 className='hidden md:block text-5xl font-bold mb-12 uppercase'>Create your deal</h1>
         <div className='md:hidden'>
           <SearchMd />
         </div>
         
-        <div className='max-w-screen-lg flex md:flex-col gap-12'>
+        <div className='max-w-screen-lg flex md:flex-col gap-12 p-8'>
             <div className='hidden md:block'>
               <SearchXl />
             </div>

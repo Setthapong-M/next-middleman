@@ -15,7 +15,7 @@ function createProduct() {
   const phD = "Enter anything"
 
   return (
-    <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
+    <div className='max-w-screen-xl mx-auto p-8 pt-12 md:p-20'>
         <h1 className='hidden md:block text-5xl font-bold uppercase mb-12'>Create your product</h1>
         
         <div className='flex flex-col md:grid md:grid-cols-2 gap-6'>
@@ -33,10 +33,8 @@ function createProduct() {
                 <InputBarMd title = {titleD} ph = {phD}/>
               </div>
               
-              <Link href='/seller-info'>
-                <button className='mt-3 md:mt-0 w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
-                  Confirm
-                </button>
+              <Link href='/seller-info' className='flex items-center justify-center mt-3 md:mt-0 w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+                Confirm
               </Link>
           </div>
           

@@ -31,15 +31,11 @@ function buyerInfoTracking() {
             </div>
         </div>
         <div className='flex flex-col gap-6 mt-12'>
-            <Link href='/'>
-                <button className='w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
-                    Close the deal
-                </button>
+            <Link href='/' className='flex items-center justify-center w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+                Close the deal
             </Link>
-            <Link href='/product-review'>
-                <button className='w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
-                    View product
-                </button>
+            <Link href='/product-review' className='flex items-center justify-center w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+                View product
             </Link>
         </div>
     </div>
