@@ -8,7 +8,7 @@ import SellerInfo from '../components/moleculeDesktop/SellerInfo'
 import ProductInfo from '../components/moleculeDesktop/ProductInfo'
 import { useRouter } from 'next/navigation'
 
-function productReview() {
+function ProductReview() {
   const router = useRouter();
   return (
     <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
@@ -38,9 +38,8 @@ function productReview() {
 
             </div>
 
-            <div className='hidden md:block flex justify-center max-w-80 ml-12'>
+            <div className='hidden md:flex justify-center max-w-80 ml-12'>
                 <button type='button' onClick={router.back} className='w-full h-16 bg-grey400 flex justify-center items-center text-white text-xl rounded-full uppercase'>Go back</button>
-
 
                 <ProductReviewInfo />
             </div>
@@ -50,4 +49,4 @@ function productReview() {
   )
 }
 
-export default productReview
+export default ProductReview

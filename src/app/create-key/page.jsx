@@ -2,7 +2,7 @@ import React from 'react'
 import InputBar from '../components/moleculeDesktop/InputBar'
 import Link from 'next/link'
 
-function createKey() {
+function CreateKey() {
     const title = "Key"
     const ph = "Create your key"
   return (
@@ -17,4 +17,4 @@ function createKey() {
   )
 }
 
-export default createKey
+export default CreateKey

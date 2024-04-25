@@ -5,7 +5,7 @@ import Dropdown from '../components/moleculeDesktop/Dropdown'
 import InputBarMd from '../components/moleculeMobile/InputBarMd'
 
 
-function updateTracking() {
+function UpdateTracking() {
     const title = "Tracking number"
     const ph = "Enter your tracking number"
 
@@ -35,4 +35,4 @@ function updateTracking() {
   )
 }
 
-export default updateTracking
+export default UpdateTracking

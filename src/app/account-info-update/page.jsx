@@ -3,7 +3,7 @@ import InputBarMd from '../components/moleculeMobile/InputBarMd'
 import Link from 'next/link'
 import InputBar from '../components/moleculeDesktop/InputBar'
 
-function accountInfoUpdate() {
+function AccountInfoUpdate() {
   return (
     <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
       <h1 className='text-2xl md:text-5xl font-bold uppercase mb-6'>Update  your account</h1>
@@ -33,4 +33,4 @@ function accountInfoUpdate() {
   )
 }
 
-export default accountInfoUpdate
+export default AccountInfoUpdate

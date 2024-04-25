@@ -2,7 +2,7 @@ import React from 'react'
 import InputBar from '../components/moleculeDesktop/InputBar'
 import Link from 'next/link'
 
-function enterKey() {
+function EnterKey() {
     const title = "Key"
     const ph = "Enter your key"
   return (
@@ -17,4 +17,4 @@ function enterKey() {
   )
 }
 
-export default enterKey
+export default EnterKey

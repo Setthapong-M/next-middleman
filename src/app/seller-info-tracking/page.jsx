@@ -6,7 +6,7 @@ import Link from 'next/link'
 import ProductInfo from '../components/moleculeDesktop/ProductInfo'
 import TrackInfo from '../components/moleculeDesktop/TrackInfo'
 
-function sellerInfoTracking() {
+function SellerInfoTracking() {
     const tag = "Padding"
   return (
     <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
@@ -42,4 +42,4 @@ function sellerInfoTracking() {
   )
 }
 
-export default sellerInfoTracking
+export default SellerInfoTracking

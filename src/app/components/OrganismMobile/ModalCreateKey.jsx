@@ -1,3 +1,4 @@
+"use client"
 
 import React from 'react'
 import InputBarMd from '../moleculeMobile/InputBarMd'

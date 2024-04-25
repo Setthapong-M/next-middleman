@@ -7,7 +7,7 @@ import Link from 'next/link'
 import PicProductMd from '../components/moleculeMobile/PicProductMd'
 import InputBarMd from '../components/moleculeMobile/InputBarMd'
 
-function createProduct() {
+function SellerCreateProduct() {
 
   const titleP = "Price"
   const phP = "Enter price"
@@ -49,4 +49,4 @@ function createProduct() {
   )
 }
 
-export default createProduct
+export default SellerCreateProduct

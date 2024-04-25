@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaPenToSquare} from "react-icons/fa6";
 
-function accountInfo() {
+function AccountInfo() {
   return (
     <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
         <h1 className='text-xl md:text-5xl font-bold uppercase'>Account info</h1>
@@ -44,4 +44,4 @@ function accountInfo() {
   )
 }
 
-export default accountInfo
+export default AccountInfo

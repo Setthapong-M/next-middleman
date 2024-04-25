@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-function positionSide() {
+function PositionSide() {
   return (
     <div className='max-w-screen-xl mx-auto p-8 mt-60 md:mt-0 md:p-20'>
       <h1 className='text-center text-2xl md:text-5xl md:text-start font-bold uppercase mb-6 md:mb-12'>What is your position</h1>
@@ -31,4 +31,4 @@ function positionSide() {
   )
 }
 
-export default positionSide
+export default PositionSide

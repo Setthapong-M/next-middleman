@@ -4,7 +4,7 @@ import SellerInfo from '../components/moleculeDesktop/SellerInfo'
 import BuyerInfo from '../components/moleculeDesktop/BuyerInfo'
 import Link from 'next/link'
 
-function sellerInfo() {
+function BuyerCheck() {
     const tag = "Wait for buyer confirm"
   return (
     <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
@@ -33,4 +33,4 @@ function sellerInfo() {
   )
 }
 
-export default sellerInfo
+export default BuyerCheck

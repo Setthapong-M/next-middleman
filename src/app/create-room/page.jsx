@@ -7,7 +7,7 @@ import ModalCreateKey from '../components/OrganismMobile/ModalCreateKey'
 import { useState } from 'react'
 import SearchMd from '../components/OrganismMobile/SearchMd'
 
-function createRoom() {
+function CreateRoom() {
   const [showMadal, setShowModal] = useState(false);
 
   const toggle = () => {
@@ -52,4 +52,4 @@ function createRoom() {
   )
 }
 
-export default createRoom
+export default CreateRoom

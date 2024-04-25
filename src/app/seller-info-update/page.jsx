@@ -5,7 +5,7 @@ import BuyerInfo from '../components/moleculeDesktop/BuyerInfo'
 import Link from 'next/link'
 import ProductInfo from '../components/moleculeDesktop/ProductInfo'
 
-function sellerInfoUpdate() {
+function SellerInfoUpdate() {
     const tag = "Buyer paid"
   return (
     <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
@@ -37,4 +37,4 @@ function sellerInfoUpdate() {
   )
 }
 
-export default sellerInfoUpdate
+export default SellerInfoUpdate
