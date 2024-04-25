@@ -9,7 +9,7 @@ import ProductInfo from '../components/moleculeDesktop/ProductInfo'
 import ModalPaySuccess from '../components/OrganismDesktop/ModalPaySuccess'
 import { useState } from 'react'
 
-function buyerInfo() {
+function BuyerInfoPayment() {
 
     const [showMadal, setShowModal] = useState(false);
 
@@ -52,4 +52,4 @@ function buyerInfo() {
   )
 }
 
-export default buyerInfo
+export default BuyerInfoPayment

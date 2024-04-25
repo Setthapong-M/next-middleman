@@ -15,7 +15,7 @@ function Login() {
         <div className='md:max-w-80 flex flex-col gap-6'>
 
             <div className='md:hidden'>
-                <InputBarMd title = {title}/>
+                <InputBarMd title = {title} ph={ph}/>
             </div>
             <div className='flex flex-col gap-3'>
                 <div className='hidden md:block'>
