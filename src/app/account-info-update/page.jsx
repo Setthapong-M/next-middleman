@@ -23,7 +23,7 @@ function accountInfoUpdate() {
         <InputBarMd title={"Payment receiving"} ph={"Enter your bank account"}/>
         <InputBarMd title={"Address"} ph={"Enter your address"}/>
       </div>
-      <Link href='/position-side'>
+      <Link href='/account-info'>
           <button className='mt-6 md:max-w-80 w-full h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
             Confirm
           </button>

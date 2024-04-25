@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
 
 
-const Dropdown = (props) => {
+const Dropdown = ({options}) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleDropdown = () => {
@@ -14,11 +14,6 @@ const Dropdown = (props) => {
         setIsOpen(false);
     };
 
-    let options = [
-        "This is first",
-        "This is second",
-        "This is third",
-    ]
 
     return (
             <div id='dropDownButton'>
@@ -28,26 +23,26 @@ const Dropdown = (props) => {
                     className="bg-white w-full md:w-80 h-16 text-xl flex items-center justify-between "
                     onClick={toggleDropdown}
                 >
-                    {props.title} <FaAngleUp />
+                    {options[0]} <FaAngleUp />
                     </button>
                 ) : <button
                     type="button"
                     className="bg-white w-full md:w-80 h-16 text-xl flex items-center justify-between border-b border-black "
                     onClick={toggleDropdown}
                 >
-                    {props.title} <FaAngleDown />
+                    {options[0]} <FaAngleDown />
                     </button>}
 
                 {isOpen && (
-                    <div className=" w-80 rounded-xl drop-shadow-md bg-white border">
+                    <div className="absolute w-80 rounded-xl drop-shadow-md bg-white border">
                         <ul>
                         {options.map((message, index) => {
-                            return <li>
+                            return <li key={index}>
                                         <a
                                             href="#"
                                             className="block px-3 py-3 text-md hover:bg-grey100 hover:rounded-xl"
                                             onClick={closeDropdown}
-                                            key={index}
+                                            
                                         >
                                             {message}
                                         </a>

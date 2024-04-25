@@ -21,8 +21,9 @@ export default function RootLayout({ children }) {
         </div>
         
         {children}
+        <div className="mb-24 md:mb-0"></div>
         <div className="md:hidden fixed bottom-0 inset-x-0">
-          {/* <NavberMd /> */}
+          <NavberMd />
         </div>
       </body>
     </html>

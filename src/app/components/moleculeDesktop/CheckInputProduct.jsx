@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function CheckInputProduct() {
     const titleP = "Price";
-    const contentP = "Enter price";
+    const contentP = "9900";
     const titleD = "Description";
     const contentD = "Lorem ipsum dolor sit amet consectetur. Arcu est urna lobortis sagittis tincidunt. Aliquam odio eget risus aliquet ac nunc eget ullamcorper. Etiam blandit faucibus nibh faucibus etiam. Tincidunt cras urna magna aliquam fringilla facilisis.";
 

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import {FaSistrix } from "react-icons/fa6";
 
@@ -10,7 +11,10 @@ function SearchSm() {
       </div>
       <button className='w-10 h-10 border border-black bg-white rounded-full'>
           <div className='flex justify-center'>
-              <FaSistrix className='w-5 h-5 text-black'/>
+              <Link href="/enter-key">
+                <FaSistrix className='w-5 h-5 text-black'/>
+              </Link>
+              
           </div>
       </button>
   </div>

@@ -39,12 +39,13 @@ function Navbar() {
                 />
             </div></Link>
 
+
             <div className='hidden md:block'><SearchSm /></div>
             {/* <HeaderRoom /> */}
             <ul className='flex items-center gap-x-3'>
                 <Link href="/"><li><FaGlobe className='w-6 h-6'/></li></Link>
                 <li><button onClick={toggle} className='flex items-center'><FaBars className='w-6 h-12'/></button></li>
-                <Link href="/"><li><FaCircleUser className='w-6 h-6'/></li></Link>
+                <Link href="/account-info-update"><li><FaCircleUser className='w-6 h-6'/></li></Link>
             </ul>
         </div>
         

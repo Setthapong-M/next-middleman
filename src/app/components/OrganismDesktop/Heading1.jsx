@@ -20,7 +20,7 @@ function Heading1() {
           <p className=''>{content}</p>
           <div className='flex flex-col md:max-w-96 gap-3'>
             <Link href='/login'><button className='w-full  h-14 md:h-20 bg-green200 rounded-full text-xl font-bold md:text-2xl border border-black'>MIDDLEMAN</button></Link>
-            <Link href='/' className='hidden md:block underline text-center'>Already have an account? Sign in</Link>
+            <Link href='/login' className='hidden md:block underline text-center'>Already have an account? Sign in</Link>
           </div>
         </div>
         
