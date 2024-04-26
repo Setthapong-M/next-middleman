@@ -34,10 +34,10 @@ const Dropdown = ({options}) => {
                     </button>}
 
                 {isOpen && (
-                    <div className="absolute w-80 rounded-xl drop-shadow-md bg-white border">
+                    <div className="w-full rounded-xl drop-shadow-md bg-white border">
                         <ul>
                         {options.map((message, index) => {
-                            return <li key={index}>
+                            return <li key={index + message}>
                                         <a
                                             href="#"
                                             className="block px-3 py-3 text-md hover:bg-grey100 hover:rounded-xl"
@@ -48,35 +48,6 @@ const Dropdown = ({options}) => {
                                         </a>
                                     </li>
                         })} </ul>
-                        {/* <ul>
-                            <li>
-                                <a
-                                    href="#"
-                                    className="block px-3 py-3 text-md hover:bg-grey100 hover:rounded-t-xl"
-                                    onClick={closeDropdown}
-                                >
-                                    Option 1
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    className="block px-3 py-3 text-md hover:bg-grey100 "
-                                    onClick={closeDropdown}
-                                >
-                                    Option 2
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    className="block px-3 py-3 text-md hover:bg-grey100 hover:rounded-b-xl"
-                                    onClick={closeDropdown}
-                                >
-                                    Option 3
-                                </a>
-                            </li>
-                        </ul> */}
                     </div>
                 )}
             </div>

@@ -14,6 +14,11 @@ function Negotiation() {
     'Return product',
     'Negotiate by MIDDLEMAN',
   ]
+
+  const contract1 = "ipsum component variant main layer. Reesizing hand."
+  const contract2 = "ipsum component variant main layer. Reesizing hand."
+  const contract3 = "ipsum component variant main layer. Reesizing hand."
+
   
   return (
     <div className='max-w-screen-xl mx-auto p-8 md:p-20'>
@@ -22,7 +27,13 @@ function Negotiation() {
         <PositionNego />
         <Dropdown options = {options} />
         <InputDetailNego />
-        <CheckContract />
+        <div className='flex flex-col gap-2'>
+          <CheckContract contract = {contract1}/>
+          <CheckContract contract = {contract2}/>
+          <CheckContract contract = {contract3}/>
+        </div>
+        
+
         <Link href='/' className='flex items-center justify-center mt-3 md:mt-0 w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
           Confirm
         </Link>

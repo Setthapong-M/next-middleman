@@ -38,7 +38,7 @@ function ProductReview() {
 
             </div>
 
-            <div className='hidden md:flex justify-center max-w-80 ml-12'>
+            <div className='hidden md:flex flex-col justify-center max-w-80 ml-12'>
                 <button type='button' onClick={router.back} className='w-full h-16 bg-grey400 flex justify-center items-center text-white text-xl rounded-full uppercase'>Go back</button>
 
                 <ProductReviewInfo />

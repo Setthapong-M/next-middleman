@@ -23,7 +23,7 @@ function Heading3() {
                         width={1000}
                         height={1000}
                         alt='/'
-                        className='object-cover aspect-square md:min-w-[576px] max-h-[672px] w-full h-full rounded-xl'
+                        className='object-cover aspect-square md:max-w-[672px] max-h-[672px] w-full h-full rounded-xl'
                     />
                 </div>
             </div>

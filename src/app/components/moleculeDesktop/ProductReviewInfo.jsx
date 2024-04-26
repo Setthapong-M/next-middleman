@@ -13,14 +13,14 @@ function ProductReviewInfo() {
     const descr = "Lorem ipsum dolor sit amet consectetur. Arcu est urna lobortis sagittis tincidunt. Aliquam odio eget risus aliquet ac nunc eget ullamcorper. Etiam blandit faucibus nibh faucibus etiam. Tincidunt cras urna magna aliquam fringilla facilisis."
 
     return (
-        <div className=''>
+        <div className='flex flex-col gap-3'>
             
             {/* Seller info */}
             <div>
-                <div className='border-b border-black px-6 pt-4 pb-2'>
+                <div className='border-b border-black  pt-4 pb-2'>
                     <h3>Seller info</h3>
                 </div>
-                <div className='flex flex-col gap-y-2 w-full border-b border-black px-6 py-4'>
+                <div className='flex flex-col gap-y-2 w-full border-b border-black py-4'>
                     <div>
                         <p>Name : {name}</p>
                     </div>
@@ -35,10 +35,10 @@ function ProductReviewInfo() {
 
             {/* Product info */}
             <div>
-                <div className='border-b border-black px-6 pt-4 pb-2'>
+                <div className='border-b border-black pt-4 pb-2'>
                     <h3>Product info</h3>
                 </div>
-                <div className='flex flex-col gap-y-2 w-full border-b border-black px-6 py-4'>
+                <div className='flex flex-col gap-y-2 w-full border-b border-black py-4'>
                     <div>
                         <p>Phone number : {price} Baht</p>
                     </div>

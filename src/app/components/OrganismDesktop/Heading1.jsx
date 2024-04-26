@@ -10,7 +10,7 @@ function Heading1() {
 
   return (
     <div className='max-w-screen-xl mx-auto pt-6 pb-20 md:py-20 px-8'>
-      <div className='flex flex-col gap-12 md:gap-0 md:flex-row md:justify-evenly md:items-center'>
+      <div className='flex flex-col gap-12 md:gap-0 md:flex-row md:justify-between md:items-center'>
         <div className='md:max-w-md flex flex-col gap-12 justify-start'>
           <div className='text-5xl font-bold md:text-5xl'>
               <h1>{title1}</h1>
@@ -30,7 +30,7 @@ function Heading1() {
             width={1000}
             height={1000}
             alt='/'
-            className='object-cover  aspect-square md:min-w-[576px] max-h-[672px] w-full h-full rounded-xl'
+            className='object-cover aspect-square md:max-w-[672px] max-h-[672px] w-full h-full rounded-xl'
           />
         </div>
       </div>

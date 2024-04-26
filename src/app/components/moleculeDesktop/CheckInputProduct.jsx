@@ -1,5 +1,4 @@
 import React from 'react'
-import InputBar from './InputBar'
 import { FaCircleCheck } from "react-icons/fa6";
 import { useState } from 'react';
 

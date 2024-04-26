@@ -10,7 +10,7 @@ function PositionNego() {
   }
 
   return (
-    <div className='max-w-3xl w-full bg-grey400 flex justify-between items-center py-6 px-12 rounded-full'>
+    <div className='md:max-w-3xl w-full bg-grey400 flex flex-col md:flex-row justify-between items-center py-6 px-12 gap-y-6 rounded-xl md:rounded-full'>
         <h1 className='text-white text-2xl'>What is your position</h1>
         {isOpen ? (
           <div className='flex gap-3 bg-white rounded-full'>

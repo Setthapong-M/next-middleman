@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <nav className='bg-black px-8'>
         <div className='flex max-w-screen-xl h-20 items-center mx-auto justify-between text-white'>
-            <Link href="/"><div className='flex'>
+            <Link href="/"><div className='flex items-center gap-2'>
                 <Image 
                     src={LogoEm}
                     width={48}

@@ -3,10 +3,10 @@
 import React from 'react'
 import PicProduct from '../components/moleculeDesktop/PicProduct'
 import Link from 'next/link'
-import CheckInputProduct from '../components/moleculeDesktop/CheckInputProduct'
 import CheckInputProductMd from '../components/moleculeMobile/CheckInputProductMd'
 import PicProductMd from '../components/moleculeMobile/PicProductMd'
 import { useRouter } from 'next/navigation'
+import CheckInputProduct from '../components/moleculeDesktop/CheckInputProduct'
 
 function CheckProduct() {
     const router = useRouter();
@@ -20,11 +20,11 @@ function CheckProduct() {
             </div>
             <div className='md:max-w-80 flex flex-col gap-3 md:gap-6'>
                 
-                <div className='-z-50 hidden md:block'>
+                <div className=' hidden md:block'>
                     <CheckInputProduct />
                 </div>
 
-                <div className='-z-50 md:hidden'>
+                <div className=' md:hidden'>
                     <CheckInputProductMd />
                 </div>
                 

@@ -10,41 +10,41 @@ function NavberMd() {
   return (
     <div className='max-w-screen-md bg-black flex justify-around text-white px-8 py-6'>
         <Link href="/">    
-            <div className='flex flex-col items-center'>
-                    <FaHouse className='w-10 h-10'/>
-                    <p>Home</p>
+            <div className='flex flex-col items-center gap-1'>
+                    <FaHouse className='w-6 h-6'/>
+                    <p className='text-sm'>Home</p>
             </div>
         </Link>    
         <Link href="/">    
-            <div className='flex flex-col items-center'>
-                    <FaInbox  className='w-9 h-10'/>
-                    <p>Activity</p>
+            <div className='flex flex-col items-center gap-1'>
+                    <FaInbox  className='w-5 h-6'/>
+                    <p className='text-sm'>Activity</p>
             </div>
         </Link>
         <Link href="/create-room">
-            <div className='flex flex-col items-center fill-black'>
+            <div className='flex flex-col items-center fill-black gap-1'>
                     <Image 
                         src={Logo}
-                        width={40}
-                        height={40}
+                        width={24}
+                        height={24}
                         alt='/'
                     />
-                    <p>MIDDLEMAN</p>
+                    <p className='text-sm'>MIDDLEMAN</p>
             </div>
         </Link>    
         <Link href="/">    
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col items-center gap-1'>
                 
-                    <FaBell className='w-10 h-10'/>
-                    <p>Notification</p>
+                    <FaBell className='w-6 h-6'/>
+                    <p className='text-sm'>Notification</p>
                 
             </div>
         </Link>
 
         <Link href="/account-info">
-            <div className='flex flex-col items-center'>
-                <FaCircleUser className='w-10 h-10'/>
-                <p>Account</p>
+            <div className='flex flex-col items-center gap-1'>
+                <FaCircleUser className='w-6 h-6'/>
+                <p className='text-sm'>Account</p>
             </div>
         </Link>
     </div>

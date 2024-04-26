@@ -1,17 +1,16 @@
 import React, { useState } from 'react'
 import { FaSquareCheck } from "react-icons/fa6";
 
-function CheckContract() {
-    const p1 = "ipsum component variant main layer. Reesizing hand."
+function CheckContract(props) {
 
   return (
     <div>
         <input
           type='checkbox'
           name='test'
-          id='test'
+          id={props.contract}
         ></input>
-        <label htmlFor='contract' className='ml-3'>{p1}</label>
+        <label htmlFor={props.contract} className='ml-3'>{props.contract}</label>
 
     </div>
   )

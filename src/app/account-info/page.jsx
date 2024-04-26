@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaPenToSquare} from "react-icons/fa6";
 
@@ -11,7 +12,9 @@ function AccountInfo() {
                     <h3>Name</h3>
                     <p>James Barnes</p>
                 </div>
-                <FaPenToSquare className='text-grey200'/>
+                <Link href="/account-info-update">
+                    <FaPenToSquare className='text-grey200'/>
+                </Link>            
             </div>
 
             <div className='md:max-w-xl flex justify-between border-b border-black py-6'>
@@ -19,7 +22,9 @@ function AccountInfo() {
                     <h3>Phone number</h3>
                     <p>0801234567</p>
                 </div>
-                <FaPenToSquare className='text-grey200'/>
+                <Link href="/account-info-update">
+                    <FaPenToSquare className='text-grey200'/>
+                </Link>            
             </div>
 
             <div className='md:max-w-xl flex justify-between border-b border-black py-6'>
@@ -27,7 +32,9 @@ function AccountInfo() {
                     <h3>Payment receiving</h3>
                     <p>Kbank 1212312121</p>
                 </div>
-                <FaPenToSquare className='text-grey200'/>
+                <Link href="/account-info-update">
+                    <FaPenToSquare className='text-grey200'/>
+                </Link>            
             </div>
 
             <div className='md:max-w-xl flex justify-between border-b border-black py-6'>
@@ -35,7 +42,9 @@ function AccountInfo() {
                     <h3>Address</h3>
                     <p>250/444 Bangkok Thailand 10101</p>
                 </div>
-                <FaPenToSquare className='text-grey200'/>
+                <Link href="/account-info-update">
+                    <FaPenToSquare className='text-grey200'/>
+                </Link>
             </div>
         </div>
         
