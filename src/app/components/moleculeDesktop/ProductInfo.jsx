@@ -13,7 +13,7 @@ function ProductInfo() {
                 <p>Phone number : {price}</p>
             </div>
             <div className='flex gap-x-3'>
-                <p className='text-nowrap'>Description : </p>
+                <p className='text-nowrap'>Description :</p>
                 <div className=''>{descr}</div>
             </div>
         </div>

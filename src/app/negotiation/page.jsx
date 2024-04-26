@@ -15,9 +15,9 @@ function Negotiation() {
     'Negotiate by MIDDLEMAN',
   ]
 
-  const contract1 = "ipsum component variant main layer. Reesizing hand."
-  const contract2 = "ipsum component variant main layer. Reesizing hand."
-  const contract3 = "ipsum component variant main layer. Reesizing hand."
+  const contract1 = "การตัดสินของ MIDDLEMAN ถือเป็นที่สิ้นสุด"
+  const contract2 = "เมื่อมีการคืนสินค้า หรือลดราคาของสินค้า มีค่าธรรมเนียมเริ่มต้นที่ 10% ของราคาของ"
+  const contract3 = "ถ้าเจรจาแล้ว ข้อตกลงยังคงเหมือนเดิม จะไม่มีค่าธรรมเนียมเพิ่มเติมใดๆ ทัั้งสิ้น"
 
   
   return (

@@ -6,7 +6,7 @@ function Heading2() {
     const title1 = "CLOSE A DEAL WITH"
     const title2 ="MIDDLEMAN"
     const title3 = ""
-    const content = "Lorem ipsum dolor sit amet consectetur. Aliquam elit commodo egestas ornare. Scelerisque id aliquam faucibus urna velit. In semper fringilla mollis ornare leo. Blandit sit eget odio hendrerit."
+    const content = "ค่าบริการเริ่มต้นเพียง 100 บาทต่อการผ่านคนกลาง"
   
     return (
         <div className='max-w-screen-xl mx-auto py-20 px-8'>

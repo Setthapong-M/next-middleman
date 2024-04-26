@@ -6,7 +6,7 @@ function Heading3() {
     const title1 = "IF YOU EVER"
     const title2 ="HAD CHEATED"
     const title3 = ""
-    const content = "Lorem ipsum dolor sit amet consectetur. Aliquam elit commodo egestas ornare. Scelerisque id aliquam faucibus urna velit. In semper fringilla mollis ornare leo. Blandit sit eget odio hendrerit."
+    const content = "ปิดช่องทางการโดนโกงด้วยการผ่านกลาง ผู้ซื้อได้เช็คของก่อนที่ผู้ขายจะได้รับเงิน ผู้ขายได้รับความน่าเชื่อถือในการซื้อขายออนไลน์"
   
     return (
         <div className='max-w-screen-xl mx-auto py-20 px-8'>

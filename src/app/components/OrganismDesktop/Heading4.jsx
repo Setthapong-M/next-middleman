@@ -6,7 +6,7 @@ function Heading4() {
     const title1 = "WAITING FOR"
     const title2 ="A STUFF WILL NOT"
     const title3 = "BE WASTEFUL"
-    const content = "Lorem ipsum dolor sit amet consectetur. Aliquam elit commodo egestas ornare. Scelerisque id aliquam faucibus urna velit. In semper fringilla mollis ornare leo. Blandit sit eget odio hendrerit."
+    const content = "เพียงแค่ของถึงมือผู้ซื้อ แล้วได้รับการกดยืนยันของ เราจะส่งเงินให้คุณตามเวลาที่กำหนด(ช่วงเวลา) คุณจะไม่ต้องกังวลว่าเงินที่โอนไปแล้ว จะโดนโกงหรือไม่"
   
     return (
         <div className='max-w-screen-xl mx-auto py-20 px-8'>

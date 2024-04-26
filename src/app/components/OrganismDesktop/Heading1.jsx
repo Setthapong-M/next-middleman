@@ -6,7 +6,7 @@ function Heading1() {
   const title1 = "MIDDLEMAN"
   const title2 ="TRUSTABLE BUT "
   const title3 = "MUST TO PROVE"
-  const content = "Lorem ipsum dolor sit amet consectetur. Aliquam elit commodo egestas ornare. Scelerisque id aliquam faucibus urna velit. In semper fringilla mollis ornare leo. Blandit sit eget odio hendrerit."
+  const content = "ระบบคนกลางที่จะเป็นตัวช่วยในการซื้อ-ขายของออนไลน์ ครอบคลุมทั้งคนกลางในการซื้อ-ขาย และการต่อรองหลังรับของ"
 
   return (
     <div className='max-w-screen-xl mx-auto pt-6 pb-20 md:py-20 px-8'>

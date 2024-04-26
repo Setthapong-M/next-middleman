@@ -17,7 +17,7 @@ function BuyerInfo() {
                 <p>Phone number : {phone}</p>
             </div>
             <div className='flex gap-x-3'>
-                <p className='text-nowrap'>Address : </p>
+                <p className='text-nowrap'>Address :</p>
                 <p className='w-full text-wrap'>{address}</p>
             </div>
         </div>
