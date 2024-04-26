@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 function NavberMd() {
   return (
-    <div className='max-w-screen-md bg-black flex justify-around text-white px-8 py-6'>
+    <div className='max-w-screen-md bg-black flex justify-between text-white px-8 py-6'>
         <Link href="/">    
             <div className='flex flex-col items-center gap-1'>
                     <FaHouse className='w-6 h-6'/>
