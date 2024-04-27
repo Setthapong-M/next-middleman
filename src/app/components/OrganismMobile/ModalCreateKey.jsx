@@ -18,15 +18,16 @@ const ModalCreateKey = ({isVisible, onClose}) => {
 
   return (
     <div id='wrapper' onClick={handleClose} className='fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center'>
-        <div className='w-full min-h-64 !mx-8 bg-white rounded-xl'>
-            <div className='flex flex-col gap-6 px-8 mt-12'>
-                <InputBarMd title = {title} ph = {ph}/>
-                <Link href='/position-side'>
-                <button className='w-full h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>  
-                    Continue
-                </button>
-                </Link>
-            </div>
+        <div className='w-full min-h-64 mx-8 bg-white rounded-xl'>
+          <div className='flex flex-col gap-6 mx-6 mt-14'>
+            <InputBarMd title = {title} ph = {ph}/>
+            <Link href='/position-side'>
+            <button className='w-full h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>  
+                Continue
+            </button>
+            </Link>
+          </div>
+          
       </div>
     </div>
   )
