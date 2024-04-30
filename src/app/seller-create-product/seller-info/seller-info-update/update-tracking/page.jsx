@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
-import InputBar from '../components/moleculeDesktop/InputBar'
-import Dropdown from '../components/moleculeDesktop/Dropdown'
-import InputBarMd from '../components/moleculeMobile/InputBarMd'
+import InputBar from '../../../../components/moleculeDesktop/InputBar'
+import Dropdown from '../../../../components/moleculeDesktop/Dropdown'
+import InputBarMd from '../../../../components/moleculeMobile/InputBarMd'
 
 
 function UpdateTracking() {
@@ -26,7 +26,7 @@ function UpdateTracking() {
           <div className='-z-50 md:hidden'>
             <InputBarMd title = {title} ph={ph}/>
           </div>
-          <Link href='/seller-info-tracking' className='flex items-center justify-center w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+          <Link href='/seller-create-product/seller-info/seller-info-update/update-tracking/seller-info-tracking' className='flex items-center justify-center w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
             Confirm
           </Link>
         </div>

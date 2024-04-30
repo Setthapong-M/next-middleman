@@ -1,12 +1,12 @@
 "use client"
 
 import React from 'react'
-import Status from '../components/moleculeDesktop/Status'
-import SellerInfo from '../components/moleculeDesktop/SellerInfo'
-import BuyerInfo from '../components/moleculeDesktop/BuyerInfo'
+import Status from '../../../components/moleculeDesktop/Status'
+import SellerInfo from '../../../components/moleculeDesktop/SellerInfo'
+import BuyerInfo from '../../../components/moleculeDesktop/BuyerInfo'
 import Link from 'next/link'
-import ProductInfo from '../components/moleculeDesktop/ProductInfo'
-import ModalPaySuccess from '../components/OrganismDesktop/ModalPaySuccess'
+import ProductInfo from '../../../components/moleculeDesktop/ProductInfo'
+import ModalPaySuccess from '../../../components/OrganismDesktop/ModalPaySuccess'
 import { useState } from 'react'
 
 function BuyerInfoPayment() {

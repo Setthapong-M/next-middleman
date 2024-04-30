@@ -21,7 +21,7 @@ function BuyerCheck() {
             </div>
         </div>
         <div className='flex flex-col gap-6'>
-            <Link href='/check-product' className='flex items-center justify-center mt-12 w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+            <Link href='/buyer-check/check-product' className='flex items-center justify-center mt-12 w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
             Check list
             </Link>
             <Link href='/product-review' className='flex items-center justify-center mt-3 md:mt-0 w-full md:w-80 h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>

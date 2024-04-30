@@ -1,12 +1,12 @@
 "use client"
 
 import React from 'react'
-import PicProduct from '../components/moleculeDesktop/PicProduct'
+import PicProduct from '../../components/moleculeDesktop/PicProduct'
 import Link from 'next/link'
-import CheckInputProductMd from '../components/moleculeMobile/CheckInputProductMd'
-import PicProductMd from '../components/moleculeMobile/PicProductMd'
+import CheckInputProductMd from '../../components/moleculeMobile/CheckInputProductMd'
+import PicProductMd from '../../components/moleculeMobile/PicProductMd'
 import { useRouter } from 'next/navigation'
-import CheckInputProduct from '../components/moleculeDesktop/CheckInputProduct'
+import CheckInputProduct from '../../components/moleculeDesktop/CheckInputProduct'
 
 function CheckProduct() {
     const router = useRouter();
@@ -29,7 +29,7 @@ function CheckProduct() {
                 </div>
                 
                 <div className='flex flex-col gap-6 mt-3'>
-                <Link href='/buyer-info' className='flex items-center justify-center mt-3 md:mt-0 w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
+                <Link href='/buyer-check/check-product/buyer-info' className='flex items-center justify-center mt-3 md:mt-0 w-full md:w-80 h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>
                     Confirm
                 </Link>
 

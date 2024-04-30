@@ -19,7 +19,7 @@ const ModalPaySuccess = ({isVisible, onClose}) => {
         <div className='w-80 min-h-64 !mx-8 bg-white rounded-xl'>
             <div className='flex flex-col gap-6 px-8 mt-12'>
                 <h1 className='text-3xl font-bold text-center'>Payment Successful</h1>
-                <Link href='/buyer-info-tracking'>
+                <Link href='/buyer-check/check-product/buyer-info/buyer-info-tracking'>
                 <button className='w-full h-16 bg-green200 text-black rounded-full text-xl font-bold md:text-xl border border-black uppercase'>  
                     Continue
                 </button>
