@@ -6,6 +6,7 @@ import InputProduct from '../components/moleculeDesktop/InputProduct'
 import Link from 'next/link'
 import PicProductMd from '../components/moleculeMobile/PicProductMd'
 import InputBarMd from '../components/moleculeMobile/InputBarMd'
+import PicProductChoose from '../components/moleculeDesktop/PicProductChoose'
 
 function SellerCreateProduct() {
 
@@ -18,7 +19,7 @@ function SellerCreateProduct() {
     <div className='max-w-screen-xl mx-auto p-8 pt-12 md:p-20'>
         <h1 className='hidden md:block text-5xl font-bold uppercase mb-12'>Create your product</h1>
         
-        <div className='flex flex-col md:grid md:grid-cols-2 gap-6'>
+        <div className='flex flex-col md:grid md:grid-cols-2 gap-6 items-center'>
           <div className='md:hidden'>
             <PicProductMd />
           </div>
@@ -39,7 +40,8 @@ function SellerCreateProduct() {
           </div>
           
           <div className='hidden md:block'>
-            <PicProduct />
+            {/* <PicProduct /> */}
+            <PicProductChoose />
           </div>
             
         </div>

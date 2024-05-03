@@ -34,7 +34,7 @@ const Dropdown = ({options}) => {
                     </button>}
 
                 {isOpen && (
-                    <div className="w-full md:max-w-80 rounded-xl drop-shadow-md bg-white border">
+                    <div className="absolute w-full md:max-w-80 rounded-xl drop-shadow-md bg-white border">
                         <ul>
                         {options.map((message, index) => {
                             return <li key={index + message}>
