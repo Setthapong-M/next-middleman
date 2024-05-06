@@ -9,7 +9,7 @@ function Heading4() {
     const content = "เพียงแค่ของถึงมือผู้ซื้อ แล้วได้รับการกดยืนยันของ เราจะส่งเงินให้คุณตามเวลาที่กำหนด(ช่วงเวลา) คุณจะไม่ต้องกังวลว่าเงินที่โอนไปแล้ว จะโดนโกงหรือไม่"
   
     return (
-        <div className='max-w-screen-xl mx-auto py-20 px-8'>
+        <div className='max-w-screen-xl mx-auto py-6 md:py-20 px-8'>
             <div className='flex flex-col-reverse md:flex-row md:justify-evenly md:items-center gap-12'>
                 <div>
                     <Image 

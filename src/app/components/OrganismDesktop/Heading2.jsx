@@ -9,7 +9,7 @@ function Heading2() {
     const content = "ค่าบริการเริ่มต้นเพียง 100 บาทต่อการผ่านคนกลาง"
   
     return (
-        <div className='max-w-screen-xl mx-auto py-20 px-8'>
+        <div className='max-w-screen-xl mx-auto py-6 md:py-20 px-8'>
             <div className='flex flex-col-reverse md:flex-row md:justify-evenly md:items-center gap-12'>
                 <div>
                     <Image 

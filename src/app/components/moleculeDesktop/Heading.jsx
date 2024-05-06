@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Heading(props) {
   return (
     <div className='max-w-md flex flex-col gap-6 justify-start'>
-        <div className='text-5xl font-bold'>
+        <div className='text-4xl md:text-5xl font-bold'>
             <h1>{props.title1}</h1>
             <h1>{props.title2}</h1>
             <h1>{props.title3}</h1>

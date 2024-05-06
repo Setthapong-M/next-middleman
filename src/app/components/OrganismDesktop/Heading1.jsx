@@ -12,7 +12,7 @@ function Heading1() {
     <div className='max-w-screen-xl mx-auto pt-6 pb-20 md:py-20 px-8'>
       <div className='flex flex-col gap-12 md:gap-0 md:flex-row md:justify-between md:items-center'>
         <div className='md:max-w-md flex flex-col gap-12 justify-start'>
-          <div className='text-5xl font-bold md:text-5xl'>
+          <div className='text-4xl font-bold md:text-5xl'>
               <h1>{title1}</h1>
               <h1>{title2}</h1>
               <h1>{title3}</h1>

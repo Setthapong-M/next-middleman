@@ -21,8 +21,8 @@ function Heading5() {
 
   return (
     <div className='bg-grey100 px-8'>
-        <div className='max-w-screen-xl mx-auto flex flex-col md:flex-row md:justify-between py-20 gap-y-12'>
-            <h1 className='text-4xl mt-6'>YOUR QUESTIONS, ANSWERED</h1>
+        <div className='max-w-screen-xl mx-auto flex flex-col md:flex-row md:justify-between py-12 md:py-20 gap-y-6'>
+            <h1 className='text-4xl '>YOUR QUESTIONS, ANSWERED</h1>
             <div>
                 <DropdownQna title = {title1} content = {content1}/>
                 <DropdownQna title = {title2} content = {content2}/>

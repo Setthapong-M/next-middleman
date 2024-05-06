@@ -9,7 +9,7 @@ function Heading3() {
     const content = "ปิดช่องทางการโดนโกงด้วยการผ่านกลาง ผู้ซื้อได้เช็คของก่อนที่ผู้ขายจะได้รับเงิน ผู้ขายได้รับความน่าเชื่อถือในการซื้อขายออนไลน์"
   
     return (
-        <div className='max-w-screen-xl mx-auto py-20 px-8'>
+        <div className='max-w-screen-xl mx-auto py-6 md:py-20 px-8'>
             <div className='flex flex-col md:flex-row md:justify-evenly md:items-center gap-12'>
                 <Heading 
                     title1 = {title1}

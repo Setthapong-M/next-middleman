@@ -14,6 +14,7 @@ module.exports = {
         "wrong": "#CD3636",
         "grey100": "#F3F3F3",
         "grey200": "#717171",
+        "grey300": "#333333",
         "grey400": "#222222",
       },
       fontFamily: {

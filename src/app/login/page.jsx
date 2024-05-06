@@ -35,27 +35,27 @@ function Login() {
             </div>
 
             {/* email */}
-            <Link href='/'><button className='w-full h-16 bg-grey400 text-white rounded-full text-xl font-bold md:text-xl border border-black uppercase'>continue with email</button></Link>
+            <Link href='/'><button className='w-full h-16 bg-grey100 text-grey200 rounded-full text-xl font-bold md:text-xl border border-black uppercase cursor-not-allowed'>continue with email</button></Link>
             
             {/* Icon */}
             <div className='flex justify-between md:grid md:grid-cols-2 md:grid-rows-2 gap-3'>
-                <Link href='/' className='min-w-16 md:w-full h-16 bg-grey400 rounded-full flex justify-center items-center'>
-                    <button className='text-white text-xl uppercase flex items-center gap-2'>
+                <Link href='/' className='min-w-16 md:w-full h-16 bg-grey100 text-grey200 border border-black cursor-not-allowed rounded-full flex justify-center items-center'>
+                    <button className= 'text-xl uppercase flex items-center gap-2 cursor-not-allowed'>
                         <FaGoogle className='w-8 h-8 md:w-5 md:h-5'/><p className='hidden md:block'>google</p>
                     </button>
                 </Link>
-                <Link href='/' className='min-w-16 md:w-full h-16 bg-grey400 rounded-full flex justify-center items-center'>
-                    <button className='text-white text-xl uppercase flex items-center gap-2'>
+                <Link href='/' className='min-w-16 md:w-full h-16 bg-grey100 text-grey200 border border-black cursor-not-allowed rounded-full flex justify-center items-center'>
+                    <button className='text-xl uppercase flex items-center gap-2 cursor-not-allowed'>
                         <FaFacebook className='w-8 h-8 md:w-5 md:h-5'/><p className='hidden md:block'>facebook</p>
                     </button>
                 </Link>
-                <Link href='/' className='min-w-16 md:w-full h-16 bg-grey400 rounded-full flex justify-center items-center'>
-                    <button className='text-white text-xl uppercase flex items-center gap-2'>
+                <Link href='/' className='min-w-16 md:w-full h-16 bg-grey100 text-grey200 border border-black cursor-not-allowed rounded-full flex justify-center items-center'>
+                    <button className='text-xl uppercase flex items-center gap-2 cursor-not-allowed'>
                         <FaApple className='w-8 h-8 md:w-5 md:h-5'/><p className='hidden md:block'>apple</p>
                     </button>
                 </Link>
-                <Link href='/' className='min-w-16 md:w-full h-16 bg-grey400 rounded-full flex justify-center items-center'>
-                    <button className='text-white text-xl uppercase flex items-center gap-2'>
+                <Link href='/' className='min-w-16 md:w-full h-16 bg-grey100 text-grey200 border border-black cursor-not-allowed rounded-full flex justify-center items-center'>
+                    <button className='text-xl uppercase flex items-center gap-2 cursor-not-allowed'>
                         <FaXTwitter className='w-8 h-8 md:w-5 md:h-5'/><p className='hidden md:block'>x</p>
                     </button>
                 </Link>
