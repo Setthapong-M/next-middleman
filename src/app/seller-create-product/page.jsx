@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React, { useState } from 'react'
 import PicProduct from '../components/moleculeDesktop/PicProduct'
 import InputProduct from '../components/moleculeDesktop/InputProduct'
 import Link from 'next/link'
@@ -15,15 +15,27 @@ function SellerCreateProduct() {
   const titleD = "Description"
   const phD = "Enter anything"
 
+  const [isPic, setIsPic] = useState(false);
+
+  const clickHandler = () => {
+    setIsPic(!isPic);
+  }
+
   return (
     <div className='max-w-screen-xl mx-auto p-8 pt-12 md:p-20'>
         <h1 className='hidden md:block text-5xl font-bold uppercase mb-12'>Create your product</h1>
         
-        <div className='flex flex-col md:grid md:grid-cols-2 gap-6 items-center'>
-          <div className='md:hidden'>
-            <PicProductMd />
+        <div className='flex flex-col md:grid md:grid-cols-2 gap-6 '>
+          {/* click to change image */}
+          <div className='md:hidden'> 
+            { !isPic ? (
+              <div onClick={clickHandler}>
+                <PicProductChoose />
+              </div>
+              ): <PicProductMd /> }
+
           </div>
-          <div className='md:max-w-80 flex flex-col gap-3 md:gap-6'>
+          <div className='flex flex-col gap-3 md:gap-6 w-full'>
               <div className='hidden md:block'>
                 <InputProduct />
               </div>
@@ -39,9 +51,15 @@ function SellerCreateProduct() {
               </Link>
           </div>
           
+          {/* click to change image */}
           <div className='hidden md:block'>
-            {/* <PicProduct /> */}
-            <PicProductChoose />
+            { !isPic ? (
+              <div onClick={clickHandler}>
+                <PicProductChoose />
+              </div>
+            ) : <div>
+                  <PicProduct />
+                </div>}
           </div>
             
         </div>
